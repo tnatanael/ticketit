@@ -23,7 +23,7 @@
 
 <body>
 
-<div class="container">
+<div class="">
     <h1 style="text-align: center">{{ trans('ticketit::install.initial-setup') }}</h1>
   <form class="form-signin" action="{{url('/tickets-install') }}" method="post" style="max-width: 500px">
           <input type="hidden" name="_token" value="{{ csrf_token() }}" />

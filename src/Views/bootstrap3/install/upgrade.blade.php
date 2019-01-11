@@ -23,7 +23,7 @@
 
 <body>
 
-<div class="container">
+<div class="">
     <h1 style="text-align: center">{{ trans('ticketit::install.upgrade') }}</h1>
     <br>
     <div class="well small" style="border: 1px solid #ccc">
