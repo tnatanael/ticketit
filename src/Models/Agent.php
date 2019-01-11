@@ -2,10 +2,10 @@
 
 namespace Kordy\Ticketit\Models;
 
-use App\Models\User;
+use App\Models\Users;
 use Auth;
 
-class Agent extends User
+class Agent extends Users
 {
     protected $table = 'users';
 
