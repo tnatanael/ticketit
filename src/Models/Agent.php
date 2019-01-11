@@ -92,7 +92,7 @@ class Agent extends User
     public static function isAgent($id = null)
     {
         if (isset($id)) {
-            $user = User::find($id);
+            $user = Users::find($id);
             if ($user->ticketit_agent) {
                 return true;
             }
